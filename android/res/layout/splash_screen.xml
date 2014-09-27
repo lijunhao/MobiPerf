@@ -3,11 +3,6 @@
   android:orientation="vertical"
   android:layout_width="match_parent"
   android:layout_height="match_parent">
-  <ImageView
-    android:layout_width="match_parent" 
-    android:layout_height="match_parent"
-    android:scaleType="fitCenter"
-    android:src="@drawable/splashscreen"/>
   <TextView
     android:id="@+id/splash_version"
     android:layout_width="fill_parent"
@@ -16,4 +11,11 @@
     android:layout_gravity="bottom"
     android:gravity="right"
     android:textSize="20dp" />
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scaleType="fitCenter"
+      android:src="@drawable/splashscreen" />
+
 </FrameLayout>
